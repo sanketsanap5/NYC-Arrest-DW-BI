@@ -1,0 +1,802 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="54" width="780" height="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 11</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+          <Caption>Container 11</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Caption>Container 11</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="79" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">\\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>\t</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>NYPD_Arrest_Data__Year_to_Date_.tsv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="ARREST_KEY" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="V_WString" />
+                <Field name="ARREST_DATE" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="V_WString" />
+                <Field name="PD_CD" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="V_WString" />
+                <Field name="PD_DESC" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="V_WString" />
+                <Field name="KY_CD" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="V_WString" />
+                <Field name="OFNS_DESC" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="V_WString" />
+                <Field name="LAW_CODE" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="V_WString" />
+                <Field name="LAW_CAT_CD" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="V_WString" />
+                <Field name="ARREST_BORO" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="V_WString" />
+                <Field name="ARREST_PRECINCT" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="V_WString" />
+                <Field name="JURISDICTION_CODE" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="V_WString" />
+                <Field name="AGE_GROUP" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="V_WString" />
+                <Field name="PERP_SEX" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="V_WString" />
+                <Field name="PERP_RACE" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="V_WString" />
+                <Field name="X_COORD_CD" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="V_WString" />
+                <Field name="Y_COORD_CD" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="V_WString" />
+                <Field name="Latitude" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="V_WString" />
+                <Field name="Longitude" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="V_WString" />
+                <Field name="New Georeferenced Column" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="703" y="103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\work\AppData\Local\Temp\Engine_9384_3bcb21b46ae249189d935b764c35772c_\Engine_2412_33b527aeb6eb4925aa30fb8c395b2e88_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="211" y="115" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="ARREST_KEY" selected="True" />
+                <Field field="ARREST_DATE" selected="True" />
+                <Field field="PD_CD" selected="True" />
+                <Field field="PD_DESC" selected="True" />
+                <Field field="KY_CD" selected="True" />
+                <Field field="OFNS_DESC" selected="True" />
+                <Field field="LAW_CODE" selected="True" />
+                <Field field="LAW_CAT_CD" selected="True" />
+                <Field field="ARREST_BORO" selected="True" />
+                <Field field="ARREST_PRECINCT" selected="True" />
+                <Field field="JURISDICTION_CODE" selected="True" />
+                <Field field="AGE_GROUP" selected="True" />
+                <Field field="PERP_SEX" selected="True" />
+                <Field field="PERP_RACE" selected="True" />
+                <Field field="X_COORD_CD" selected="True" />
+                <Field field="Y_COORD_CD" selected="True" />
+                <Field field="Latitude" selected="True" />
+                <Field field="Longitude" selected="True" />
+                <Field field="New Georeferenced Column" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="ARREST_KEY" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="Int32" />
+                <Field name="ARREST_DATE" size="10" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="String" />
+                <Field name="PD_CD" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="Int16" />
+                <Field name="PD_DESC" size="54" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="V_String" />
+                <Field name="KY_CD" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="Int16" />
+                <Field name="OFNS_DESC" size="36" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="V_String" />
+                <Field name="LAW_CODE" size="10" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="String" />
+                <Field name="LAW_CAT_CD" size="1" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="String" />
+                <Field name="ARREST_BORO" size="1" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="String" />
+                <Field name="ARREST_PRECINCT" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="Byte" />
+                <Field name="JURISDICTION_CODE" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="Byte" />
+                <Field name="AGE_GROUP" size="5" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="String" />
+                <Field name="PERP_SEX" size="1" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="String" />
+                <Field name="PERP_RACE" size="30" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="V_String" />
+                <Field name="X_COORD_CD" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="Int32" />
+                <Field name="Y_COORD_CD" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="Int32" />
+                <Field name="Latitude" size="18" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="String" />
+                <Field name="Longitude" size="18" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="String" />
+                <Field name="New Georeferenced Column" size="45" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrest_Data__Year_to_Date_.tsv" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="403" y="115" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="ARREST_KEY" selected="True" />
+                <SelectField field="ARREST_DATE" selected="False" type="Date" size="10" />
+                <SelectField field="PD_CD" selected="True" type="Int32" size="4" />
+                <SelectField field="PD_DESC" selected="True" size="100" />
+                <SelectField field="KY_CD" selected="True" type="Int32" size="4" />
+                <SelectField field="OFNS_DESC" selected="True" />
+                <SelectField field="LAW_CODE" selected="True" size="100" />
+                <SelectField field="LAW_CAT_CD" selected="True" size="100" />
+                <SelectField field="ARREST_BORO" selected="True" size="100" />
+                <SelectField field="ARREST_PRECINCT" selected="True" type="Int32" size="4" />
+                <SelectField field="JURISDICTION_CODE" selected="True" type="Int32" size="4" />
+                <SelectField field="AGE_GROUP" selected="True" size="100" />
+                <SelectField field="PERP_SEX" selected="True" size="100" />
+                <SelectField field="PERP_RACE" selected="True" size="100" />
+                <SelectField field="X_COORD_CD" selected="True" />
+                <SelectField field="Y_COORD_CD" selected="True" />
+                <SelectField field="Latitude" selected="True" size="100" />
+                <SelectField field="Longitude" selected="True" size="100" />
+                <SelectField field="New Georeferenced Column" selected="True" size="100" />
+                <SelectField field="ARREST_DATE2" selected="True" rename="ARREST_DATE" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="499" y="115" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IF IsNull([ARREST_DATE]) or IsEmpty([ARREST_DATE]) THEN ToDate('2099-12-31')&#xA;ELSE [ARREST_DATE]  &#xA;ENDIF" field="ARREST_DATE" size="10" type="Date" />
+                <FormulaField expression="IF IsNull([PD_CD]) or IsEmpty([PD_CD]) &#xA;THEN -99&#xA;ELSE [PD_CD] &#xA;ENDIF" field="PD_CD" size="4" type="Int32" />
+                <FormulaField expression="IF IsNull([PD_DESC]) or IsEmpty([PD_DESC]) &#xA;THEN &quot;Unknown&quot;&#xA;ELSE [PD_DESC] &#xA;ENDIF" field="PD_DESC" size="100" type="V_String" />
+                <FormulaField expression="IF IsNull([KY_CD]) or IsEmpty([KY_CD]) &#xA;THEN -99&#xA;ELSE [KY_CD] &#xA;ENDIF" field="KY_CD" size="4" type="Int32" />
+                <FormulaField expression="IF IsNull([OFNS_DESC]) or IsEmpty([OFNS_DESC]) &#xA;THEN &quot;Unknown&quot;&#xA;ELSE [OFNS_DESC] &#xA;ENDIF" field="OFNS_DESC" size="36" type="V_String" />
+                <FormulaField expression="IF IsNull([LAW_CODE]) or IsEmpty([LAW_CODE]) &#xA;THEN &quot;Unknown&quot;&#xA;ELSE [LAW_CODE] &#xA;ENDIF" field="LAW_CODE" size="100" type="String" />
+                <FormulaField expression="IF IsNull([LAW_CAT_CD]) or IsEmpty([LAW_CAT_CD]) &#xA;THEN &quot;Unknown&quot;&#xA;ELSE [LAW_CAT_CD] &#xA;ENDIF" field="LAW_CAT_CD" size="100" type="String" />
+                <FormulaField expression="IF IsNull([ARREST_BORO]) or IsEmpty([ARREST_BORO]) &#xA;THEN &quot;Unknown&quot;&#xA;ELSE [ARREST_BORO] &#xA;ENDIF" field="ARREST_BORO" size="100" type="String" />
+                <FormulaField expression="IF IsNull([ARREST_PRECINCT]) or IsEmpty([ARREST_PRECINCT]) &#xA;THEN -99&#xA;ELSE [ARREST_PRECINCT] &#xA;ENDIF" field="ARREST_PRECINCT" size="4" type="Int32" />
+                <FormulaField expression="IF IsNull([JURISDICTION_CODE]) or IsEmpty([JURISDICTION_CODE]) &#xA;THEN -99&#xA;ELSE [JURISDICTION_CODE] &#xA;ENDIF" field="JURISDICTION_CODE" size="4" type="Int32" />
+                <FormulaField expression="IF IsNull([AGE_GROUP]) or IsEmpty([AGE_GROUP]) or [AGE_GROUP] == 'UNKNOWN'&#xA;THEN &quot;9999&quot;&#xA;ELSE [AGE_GROUP] &#xA;ENDIF" field="AGE_GROUP" size="100" type="String" />
+                <FormulaField expression="IF IsNull([PERP_SEX]) or IsEmpty([PERP_SEX]) &#xA;THEN &quot;Unknown&quot;&#xA;ELSE [PERP_SEX] &#xA;ENDIF" field="PERP_SEX" size="100" type="String" />
+                <FormulaField expression="IF IsNull([PERP_RACE]) or IsEmpty([PERP_RACE]) &#xA;THEN &quot;Unknown&quot;&#xA;ELSE [PERP_RACE] &#xA;ENDIF" field="PERP_RACE" size="100" type="V_String" />
+                <FormulaField expression="IF IsNull([X_COORD_CD]) or IsEmpty([X_COORD_CD]) &#xA;THEN -99&#xA;ELSE [X_COORD_CD]&#xA;ENDIF" field="X_COORD_CD" size="4" type="Int32" />
+                <FormulaField expression="IF IsNull([Y_COORD_CD]) or IsEmpty([Y_COORD_CD]) &#xA;THEN -99&#xA;ELSE [Y_COORD_CD]&#xA;ENDIF" field="Y_COORD_CD" size="4" type="Int32" />
+                <FormulaField expression="IF IsNull([Latitude]) or IsEmpty([Latitude]) &#xA;THEN &quot;Unknown&quot;&#xA;ELSE [Latitude]&#xA;ENDIF" field="Latitude" size="100" type="String" />
+                <FormulaField expression="IF IsNull([Longitude]) or IsEmpty([Longitude]) &#xA;THEN &quot;Unknown&quot;&#xA;ELSE [Longitude]&#xA;ENDIF" field="Longitude" size="100" type="String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>ARREST_DATE = IF IsNull([ARREST_DATE]) or IsEmpty([ARREST_DATE]) THEN ToDate('20...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="199" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\work\AppData\Local\Temp\Engine_9384_3bcb21b46ae249189d935b764c35772c_\Engine_2412_40367cc608404cd48a5e76ab154bc04c_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="307" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>ARREST_DATE</InputFieldName>
+              <Language>English</Language>
+              <Format>MM/dd/yyyy</Format>
+              <OutputFieldName>ARREST_DATE</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert ARREST_DATE From:
+MM/dd/yyyy</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="703" y="235" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:NYC_ARREST_STAGING_DOCKER|||NYPD_Arrests_Staging</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>True</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Append</OutputOption>
+                <AppendMap>
+                  <AppendMapping mode="Custom">
+                    <Field Source="ARREST_KEY" Dest="ARREST_KEY" />
+                    <Field Source="PD_CD" Dest="PD_CD" />
+                    <Field Source="PD_DESC" Dest="PD_DESC" />
+                    <Field Source="KY_CD" Dest="KY_CD" />
+                    <Field Source="OFNS_DESC" Dest="OFNS_DESC" />
+                    <Field Source="LAW_CODE" Dest="LAW_CODE" />
+                    <Field Source="LAW_CAT_CD" Dest="LAW_CAT_CD" />
+                    <Field Source="ARREST_BORO" Dest="ARREST_BORO" />
+                    <Field Source="ARREST_PRECINCT" Dest="ARREST_PRECINCT" />
+                    <Field Source="JURISDICTION_CODE" Dest="JURISDICTION_CODE" />
+                    <Field Source="AGE_GROUP" Dest="AGE_GROUP" />
+                    <Field Source="PERP_SEX" Dest="PERP_SEX" />
+                    <Field Source="PERP_RACE" Dest="PERP_RACE" />
+                    <Field Source="X_COORD_CD" Dest="X_COORD_CD" />
+                    <Field Source="Y_COORD_CD" Dest="Y_COORD_CD" />
+                    <Field Source="Latitude" Dest="LATITUDE" />
+                    <Field Source="Longitude" Dest="LONGITUDE" />
+                    <Field Source="New Georeferenced Column" Dest="LON_LAT" />
+                    <Field Source="ARREST_DATE" Dest="ARREST_DATE" />
+                  </AppendMapping>
+                </AppendMap>
+                <PostSQL />
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:NYC_ARREST_STAGING_DOCKER
+Query=NYPD_Arrests_Staging</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="414" width="780" height="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 11</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+          <Caption>Container 11</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Caption>Container 11</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Caption>Container 11</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Caption>Container 11</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="79" y="474" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">\\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>\t</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>NYPD_Arrests_Data__Historic_.tsv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="ARREST_KEY" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+                <Field name="ARREST_DATE" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+                <Field name="PD_CD" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+                <Field name="PD_DESC" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+                <Field name="KY_CD" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+                <Field name="OFNS_DESC" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+                <Field name="LAW_CODE" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+                <Field name="LAW_CAT_CD" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+                <Field name="ARREST_BORO" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+                <Field name="ARREST_PRECINCT" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+                <Field name="JURISDICTION_CODE" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+                <Field name="AGE_GROUP" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+                <Field name="PERP_SEX" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+                <Field name="PERP_RACE" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+                <Field name="X_COORD_CD" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+                <Field name="Y_COORD_CD" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+                <Field name="Latitude" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+                <Field name="Longitude" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+                <Field name="Lon_Lat" size="254" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="703" y="463" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\work\AppData\Local\Temp\Engine_6916_d09071258eb041ba9fe4eec1b174bdc6_\Engine_2412_7d61b51248a8492987a7c7998027ea88_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="211" y="475" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="ARREST_KEY" selected="True" />
+                <Field field="ARREST_DATE" selected="True" />
+                <Field field="PD_CD" selected="True" />
+                <Field field="PD_DESC" selected="True" />
+                <Field field="KY_CD" selected="True" />
+                <Field field="OFNS_DESC" selected="True" />
+                <Field field="LAW_CODE" selected="True" />
+                <Field field="LAW_CAT_CD" selected="True" />
+                <Field field="ARREST_BORO" selected="True" />
+                <Field field="ARREST_PRECINCT" selected="True" />
+                <Field field="JURISDICTION_CODE" selected="True" />
+                <Field field="AGE_GROUP" selected="True" />
+                <Field field="PERP_SEX" selected="True" />
+                <Field field="PERP_RACE" selected="True" />
+                <Field field="X_COORD_CD" selected="True" />
+                <Field field="Y_COORD_CD" selected="True" />
+                <Field field="Latitude" selected="True" />
+                <Field field="Longitude" selected="True" />
+                <Field field="New Georeferenced Column" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="ARREST_KEY" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="Int32" />
+                <Field name="ARREST_DATE" size="10" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="String" />
+                <Field name="PD_CD" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="Int16" />
+                <Field name="PD_DESC" size="54" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="V_String" />
+                <Field name="KY_CD" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="Int16" />
+                <Field name="OFNS_DESC" size="43" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="V_String" />
+                <Field name="LAW_CODE" size="10" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="String" />
+                <Field name="LAW_CAT_CD" size="1" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="String" />
+                <Field name="ARREST_BORO" size="1" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="String" />
+                <Field name="ARREST_PRECINCT" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="Byte" />
+                <Field name="JURISDICTION_CODE" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="Byte" />
+                <Field name="AGE_GROUP" size="7" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="String" />
+                <Field name="PERP_SEX" size="1" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="String" />
+                <Field name="PERP_RACE" size="30" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="V_String" />
+                <Field name="X_COORD_CD" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="Double" />
+                <Field name="Y_COORD_CD" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="Double" />
+                <Field name="Latitude" size="18" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="String" />
+                <Field name="Longitude" size="19" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="String" />
+                <Field name="Lon_Lat" size="45" source="File: \\Mac\Home\Documents\DADBI\NYC_Arrest_Team_Assignment\data\NYPD_Arrests_Data__Historic_.tsv" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="403" y="475" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="ARREST_KEY" selected="True" />
+                <SelectField field="ARREST_DATE" selected="False" type="Date" size="10" />
+                <SelectField field="PD_CD" selected="True" type="Int32" size="4" />
+                <SelectField field="PD_DESC" selected="True" size="100" />
+                <SelectField field="KY_CD" selected="True" type="Int32" size="4" />
+                <SelectField field="OFNS_DESC" selected="True" />
+                <SelectField field="LAW_CODE" selected="True" size="100" />
+                <SelectField field="LAW_CAT_CD" selected="True" size="100" />
+                <SelectField field="ARREST_BORO" selected="True" size="100" />
+                <SelectField field="ARREST_PRECINCT" selected="True" type="Int32" size="4" />
+                <SelectField field="JURISDICTION_CODE" selected="True" type="Int32" size="4" />
+                <SelectField field="AGE_GROUP" selected="True" size="100" />
+                <SelectField field="PERP_SEX" selected="True" size="100" />
+                <SelectField field="PERP_RACE" selected="True" size="100" />
+                <SelectField field="X_COORD_CD" selected="True" />
+                <SelectField field="Y_COORD_CD" selected="True" />
+                <SelectField field="Latitude" selected="True" size="100" />
+                <SelectField field="Longitude" selected="True" size="100" />
+                <SelectField field="Lon_Lat" selected="True" />
+                <SelectField field="ARREST_DATE2" selected="True" rename="ARREST_DATE" />
+                <SelectField field="New Georeferenced Column" selected="False" size="100" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="499" y="475" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IF IsNull([ARREST_DATE]) or IsEmpty([ARREST_DATE]) THEN ToDate('2099-12-31')&#xA;ELSE [ARREST_DATE]  &#xA;ENDIF" field="ARREST_DATE" size="10" type="Date" />
+                <FormulaField expression="IF IsNull([PD_CD]) or IsEmpty([PD_CD]) &#xA;THEN -99&#xA;ELSE [PD_CD] &#xA;ENDIF" field="PD_CD" size="4" type="Int32" />
+                <FormulaField expression="IF IsNull([PD_DESC]) or IsEmpty([PD_DESC]) &#xA;THEN &quot;Unknown&quot;&#xA;ELSE [PD_DESC] &#xA;ENDIF" field="PD_DESC" size="100" type="V_String" />
+                <FormulaField expression="IF IsNull([KY_CD]) or IsEmpty([KY_CD]) &#xA;THEN -99&#xA;ELSE [KY_CD] &#xA;ENDIF" field="KY_CD" size="4" type="Int32" />
+                <FormulaField expression="IF IsNull([OFNS_DESC]) or IsEmpty([OFNS_DESC]) &#xA;THEN &quot;Unknown&quot;&#xA;ELSE [OFNS_DESC] &#xA;ENDIF" field="OFNS_DESC" size="43" type="V_String" />
+                <FormulaField expression="IF IsNull([LAW_CODE]) or IsEmpty([LAW_CODE]) &#xA;THEN &quot;Unknown&quot;&#xA;ELSE [LAW_CODE] &#xA;ENDIF" field="LAW_CODE" size="100" type="String" />
+                <FormulaField expression="IF IsNull([LAW_CAT_CD]) or IsEmpty([LAW_CAT_CD]) &#xA;THEN &quot;Unknown&quot;&#xA;ELSE [LAW_CAT_CD] &#xA;ENDIF" field="LAW_CAT_CD" size="100" type="String" />
+                <FormulaField expression="IF IsNull([ARREST_BORO]) or IsEmpty([ARREST_BORO]) &#xA;THEN &quot;Unknown&quot;&#xA;ELSE [ARREST_BORO] &#xA;ENDIF" field="ARREST_BORO" size="100" type="String" />
+                <FormulaField expression="IF IsNull([ARREST_PRECINCT]) or IsEmpty([ARREST_PRECINCT]) &#xA;THEN -99&#xA;ELSE [ARREST_PRECINCT] &#xA;ENDIF" field="ARREST_PRECINCT" size="4" type="Int32" />
+                <FormulaField expression="IF IsNull([JURISDICTION_CODE]) or IsEmpty([JURISDICTION_CODE]) &#xA;THEN -99&#xA;ELSE [JURISDICTION_CODE] &#xA;ENDIF" field="JURISDICTION_CODE" size="4" type="Int32" />
+                <FormulaField expression="IF IsNull([AGE_GROUP]) or IsEmpty([AGE_GROUP])  or [AGE_GROUP] == 'UNKNOWN'&#xA;THEN &quot;9999&quot;&#xA;ELSE [AGE_GROUP] &#xA;ENDIF" field="AGE_GROUP" size="100" type="String" />
+                <FormulaField expression="IF IsNull([PERP_SEX]) or IsEmpty([PERP_SEX]) &#xA;THEN &quot;Unknown&quot;&#xA;ELSE [PERP_SEX] &#xA;ENDIF" field="PERP_SEX" size="100" type="String" />
+                <FormulaField expression="IF IsNull([PERP_RACE]) or IsEmpty([PERP_RACE]) &#xA;THEN &quot;Unknown&quot;&#xA;ELSE [PERP_RACE] &#xA;ENDIF" field="PERP_RACE" size="100" type="V_String" />
+                <FormulaField expression="IF IsNull([X_COORD_CD]) or IsEmpty([X_COORD_CD]) &#xA;THEN -99&#xA;ELSE [X_COORD_CD]&#xA;ENDIF" field="X_COORD_CD" size="8" type="Double" />
+                <FormulaField expression="IF IsNull([Y_COORD_CD]) or IsEmpty([Y_COORD_CD]) &#xA;THEN -99&#xA;ELSE [Y_COORD_CD]&#xA;ENDIF" field="Y_COORD_CD" size="8" type="Double" />
+                <FormulaField expression="IF IsNull([Latitude]) or IsEmpty([Latitude]) &#xA;THEN &quot;Unknown&quot;&#xA;ELSE [Latitude]&#xA;ENDIF" field="Latitude" size="100" type="String" />
+                <FormulaField expression="IF IsNull([Longitude]) or IsEmpty([Longitude]) &#xA;THEN &quot;Unknown&quot;&#xA;ELSE [Longitude]&#xA;ENDIF" field="Longitude" size="100" type="String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>ARREST_DATE = IF IsNull([ARREST_DATE]) or IsEmpty([ARREST_DATE]) THEN ToDate('20...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="199" y="571" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\work\AppData\Local\Temp\Engine_6916_d09071258eb041ba9fe4eec1b174bdc6_\Engine_2412_09d971a458c044bdbced091630c0c6c8_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="307" y="475" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>ARREST_DATE</InputFieldName>
+              <Language>English</Language>
+              <Format>MM/dd/yyyy</Format>
+              <OutputFieldName>ARREST_DATE</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert ARREST_DATE From:
+MM/dd/yyyy</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="703" y="595" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:NYC_ARREST_STAGING_DOCKER|||NYPD_Arrests_Staging</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>True</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Append</OutputOption>
+                <AppendMap>
+                  <AppendMapping mode="Custom">
+                    <Field Source="ARREST_KEY" Dest="ARREST_KEY" />
+                    <Field Source="PD_CD" Dest="PD_CD" />
+                    <Field Source="PD_DESC" Dest="PD_DESC" />
+                    <Field Source="KY_CD" Dest="KY_CD" />
+                    <Field Source="OFNS_DESC" Dest="OFNS_DESC" />
+                    <Field Source="LAW_CODE" Dest="LAW_CODE" />
+                    <Field Source="LAW_CAT_CD" Dest="LAW_CAT_CD" />
+                    <Field Source="ARREST_BORO" Dest="ARREST_BORO" />
+                    <Field Source="ARREST_PRECINCT" Dest="ARREST_PRECINCT" />
+                    <Field Source="JURISDICTION_CODE" Dest="JURISDICTION_CODE" />
+                    <Field Source="AGE_GROUP" Dest="AGE_GROUP" />
+                    <Field Source="PERP_SEX" Dest="PERP_SEX" />
+                    <Field Source="PERP_RACE" Dest="PERP_RACE" />
+                    <Field Source="X_COORD_CD" Dest="X_COORD_CD" />
+                    <Field Source="Y_COORD_CD" Dest="Y_COORD_CD" />
+                    <Field Source="Latitude" Dest="LATITUDE" />
+                    <Field Source="Longitude" Dest="LONGITUDE" />
+                    <Field Source="Lon_Lat" Dest="LON_LAT" />
+                    <Field Source="ARREST_DATE" Dest="ARREST_DATE" />
+                  </AppendMapping>
+                </AppendMap>
+                <PostSQL />
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:NYC_ARREST_STAGING_DOCKER
+Query=NYPD_Arrests_Staging</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>NYC_Arrest_Staging</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="94cd2165-386d-498e-ab3c-bbf277aa7a85" />
+      <Telemetry>
+        <PreviousWorkflowId value="7d9449d0-a3e1-4593-8610-13bf72920b54" />
+        <OriginWorkflowId value="7d9449d0-a3e1-4593-8610-13bf72920b54" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

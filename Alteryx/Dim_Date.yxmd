@@ -1,0 +1,379 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:NYC_ARREST_STAGING_DOCKER|||"NYPD_Arrests_Data_Staging"."dbo"."NYPD_Arrests_Staging"</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:NYC_ARREST_STAGING_DOCKER
+Query="NYPD_Arrests_Data_Staging"....</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ARREST_KEY" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="Int32" />
+            <Field name="ARREST_DATE" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="Date" />
+            <Field name="PD_CD" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="Int32" />
+            <Field name="PD_DESC" size="200" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="V_String" />
+            <Field name="KY_CD" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="Int32" />
+            <Field name="OFNS_DESC" size="200" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="V_String" />
+            <Field name="LAW_CODE" size="100" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="V_String" />
+            <Field name="LAW_CAT_CD" size="10" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="V_String" />
+            <Field name="ARREST_BORO" size="10" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="V_String" />
+            <Field name="ARREST_PRECINCT" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="Int32" />
+            <Field name="JURISDICTION_CODE" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="Int32" />
+            <Field name="AGE_GROUP" size="50" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="V_String" />
+            <Field name="PERP_SEX" size="10" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="V_String" />
+            <Field name="PERP_RACE" size="50" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="V_String" />
+            <Field name="X_COORD_CD" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="Int32" />
+            <Field name="Y_COORD_CD" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="Int32" />
+            <Field name="LATITUDE" size="100" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="V_String" />
+            <Field name="LONGITUDE" size="100" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="V_String" />
+            <Field name="LON_LAT" size="500" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="402" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="True" />
+          <InputFieldName>ARREST_DATE</InputFieldName>
+          <Language>English</Language>
+          <Format>yyyyMMdd</Format>
+          <OutputFieldName>Date_SK</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert ARREST_DATE To:
+yyyyMMdd</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="402" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="True" />
+          <InputFieldName>ARREST_DATE</InputFieldName>
+          <Language>English</Language>
+          <Format>yyyy</Format>
+          <OutputFieldName>Year</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert ARREST_DATE To:
+Custom</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="402" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="True" />
+          <InputFieldName>ARREST_DATE</InputFieldName>
+          <Language>English</Language>
+          <Format>Month</Format>
+          <OutputFieldName>Month</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert ARREST_DATE To:
+Custom</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="402" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="True" />
+          <InputFieldName>ARREST_DATE</InputFieldName>
+          <Language>English</Language>
+          <Format>day</Format>
+          <OutputFieldName>Day</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert ARREST_DATE To:
+Custom</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+        <Position x="702" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinByRecPos value="True" />
+          <OutputJoinOnly value="False" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Input_#1_ARREST_DATE" selected="True" rename="Full_Date" />
+                <SelectField field="Input_#1_Date_SK" selected="True" type="Int32" size="4" />
+                <SelectField field="Input_#2_ARREST_DATE" selected="False" rename="Input_#2_ARREST_DATE" />
+                <SelectField field="Input_#2_Year" selected="True" type="Int32" size="4" />
+                <SelectField field="Input_#3_ARREST_DATE" selected="False" rename="Input_#3_ARREST_DATE" />
+                <SelectField field="Input_#3_Month" selected="True" />
+                <SelectField field="Input_#4_ARREST_DATE" selected="False" rename="Input_#4_ARREST_DATE" />
+                <SelectField field="Input_#4_Day" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="918" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\work\AppData\Local\Temp\Engine_4316_9aa659fc01254701a51c08730085d39f_\Engine_5712_e41b6f34d87d49388d8224e24fa26b27_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="258" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="ARREST_DATE" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="162" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ARREST_DATE" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="918" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:NYC_ARREST_DW_DOCKER|||dbo.Dim_Date</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Append</OutputOption>
+            <AppendMap>
+              <AppendMapping mode="Custom">
+                <Field Source="Full_Date" Dest="Full_Date" />
+                <Field Source="Date_SK" Dest="Date_SK" />
+                <Field Source="Year" Dest="Year" />
+                <Field Source="Month" Dest="Month" />
+                <Field Source="Day" Dest="Day" />
+              </AppendMapping>
+            </AppendMap>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:NYC_ARREST_DW_DOCKER
+Query=dbo.Dim_Date</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Unique" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Unique" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Unique" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Unique" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Dim_Date</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="24d26aa8-d958-423b-b9a6-67ff20a2c51b" />
+      <Telemetry>
+        <PreviousWorkflowId value="529748c4-927b-4337-a760-ed1bff2ee0f8" />
+        <OriginWorkflowId value="529748c4-927b-4337-a760-ed1bff2ee0f8" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

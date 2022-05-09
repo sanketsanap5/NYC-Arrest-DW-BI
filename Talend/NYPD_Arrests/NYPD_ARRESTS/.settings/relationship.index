@@ -1,0 +1,245 @@
+[ {
+  "baseItem" : {
+    "id" : "_0i5EsLnLEeyVLLQpaUN3OA",
+    "version" : "1.0",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "NYPD_ARRESTS:_QPK7ULnIEey0v8S6_G1LaQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "NYPD_ARRESTS:_jFjuILmqEey0v8S6_G1LaQ",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_9KQIELlHEeyRzcdx5tuQAA",
+    "version" : "1.0",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_OkAQsLkdEeyRzcdx5tuQAA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_PkdLoLkeEeyRzcdx5tuQAA",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_QPK7ULnIEey0v8S6_G1LaQ",
+    "version" : "1.0",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "NYPD_ARRESTS:_9KQIELlHEeyRzcdx5tuQAA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "NYPD_ARRESTS:_b5XKoLlREeyRzcdx5tuQAA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "NYPD_ARRESTS:_fIpcALlPEeyRzcdx5tuQAA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "NYPD_ARRESTS:_gz8fkLmkEey0v8S6_G1LaQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "NYPD_ARRESTS:_oN2lALmnEey0v8S6_G1LaQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "NYPD_ARRESTS:_oY5JoLmiEey0v8S6_G1LaQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "NYPD_ARRESTS:_p-jlsLk7EeyRzcdx5tuQAA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "NYPD_ARRESTS:_wob-kLlNEeyRzcdx5tuQAA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "NYPD_ARRESTS:_ykpC0LkcEeyRzcdx5tuQAA",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_b5XKoLlREeyRzcdx5tuQAA",
+    "version" : "1.0",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_OkAQsLkdEeyRzcdx5tuQAA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_PkdLoLkeEeyRzcdx5tuQAA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_PkdLoLkeEeyRzcdx5tuQAA - dim_arrest_precinct",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_fIpcALlPEeyRzcdx5tuQAA",
+    "version" : "1.0",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_OkAQsLkdEeyRzcdx5tuQAA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_PkdLoLkeEeyRzcdx5tuQAA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_PkdLoLkeEeyRzcdx5tuQAA - dim_race",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_gz8fkLmkEey0v8S6_G1LaQ",
+    "version" : "1.0",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_OkAQsLkdEeyRzcdx5tuQAA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_PkdLoLkeEeyRzcdx5tuQAA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_PkdLoLkeEeyRzcdx5tuQAA - dim_nyc_offense",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_jFjuILmqEey0v8S6_G1LaQ",
+    "version" : "1.0",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_OkAQsLkdEeyRzcdx5tuQAA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_PkdLoLkeEeyRzcdx5tuQAA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_OkAQsLkdEeyRzcdx5tuQAA - NYPD_Arrests_Staging",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_PkdLoLkeEeyRzcdx5tuQAA - fact_arrests",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_oN2lALmnEey0v8S6_G1LaQ",
+    "version" : "1.0",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_OkAQsLkdEeyRzcdx5tuQAA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_PkdLoLkeEeyRzcdx5tuQAA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_PkdLoLkeEeyRzcdx5tuQAA - dim_geography",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_oY5JoLmiEey0v8S6_G1LaQ",
+    "version" : "1.0",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_OkAQsLkdEeyRzcdx5tuQAA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_PkdLoLkeEeyRzcdx5tuQAA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_PkdLoLkeEeyRzcdx5tuQAA - dim_gen_offense",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_p-jlsLk7EeyRzcdx5tuQAA",
+    "version" : "1.0",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_OkAQsLkdEeyRzcdx5tuQAA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_PkdLoLkeEeyRzcdx5tuQAA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_PkdLoLkeEeyRzcdx5tuQAA - dim_age_group",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_wob-kLlNEeyRzcdx5tuQAA",
+    "version" : "1.0",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_OkAQsLkdEeyRzcdx5tuQAA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_PkdLoLkeEeyRzcdx5tuQAA",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_ykpC0LkcEeyRzcdx5tuQAA",
+    "version" : "1.0",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_OkAQsLkdEeyRzcdx5tuQAA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_PkdLoLkeEeyRzcdx5tuQAA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_PkdLoLkeEeyRzcdx5tuQAA - dim_arrest_boro",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]

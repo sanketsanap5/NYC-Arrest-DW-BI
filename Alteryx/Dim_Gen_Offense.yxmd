@@ -1,0 +1,313 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:NYC_ARREST_STAGING_DOCKER|||"NYPD_Arrests_Data_Staging"."dbo"."NYPD_Arrests_Staging"</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:NYC_ARREST_STAGING_DOCKER
+Query="NYPD_Arrests_Data_Staging"....</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ARREST_KEY" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="Int32" />
+            <Field name="ARREST_DATE" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="Date" />
+            <Field name="PD_CD" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="Int32" />
+            <Field name="PD_DESC" size="200" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="V_String" />
+            <Field name="KY_CD" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="Int32" />
+            <Field name="OFNS_DESC" size="200" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="V_String" />
+            <Field name="LAW_CODE" size="100" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="V_String" />
+            <Field name="LAW_CAT_CD" size="10" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="V_String" />
+            <Field name="ARREST_BORO" size="10" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="V_String" />
+            <Field name="ARREST_PRECINCT" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="Int32" />
+            <Field name="JURISDICTION_CODE" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="Int32" />
+            <Field name="AGE_GROUP" size="50" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="V_String" />
+            <Field name="PERP_SEX" size="10" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="V_String" />
+            <Field name="PERP_RACE" size="50" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="V_String" />
+            <Field name="X_COORD_CD" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="Int32" />
+            <Field name="Y_COORD_CD" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="Int32" />
+            <Field name="LATITUDE" size="100" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="V_String" />
+            <Field name="LONGITUDE" size="100" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="V_String" />
+            <Field name="LON_LAT" size="500" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="KY_CD" selected="True" />
+            <SelectField field="OFNS_DESC" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="330" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="OFNS_DESC" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="KY_CD" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="Int32" />
+            <Field name="OFNS_DESC" size="43" source="File: aka:NYC_ARREST_STAGING_DOCKER|||&quot;NYPD_Arrests_Data_Staging&quot;.&quot;dbo&quot;.&quot;NYPD_Arrests_Staging&quot;" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="450" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="KY_CD" />
+            <Field field="OFNS_DESC" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="570" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>Gen_Offense_SK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="690" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="if IsNull([KY_CD]) then -99&#xA;else [KY_CD]&#xA;endif" field="KY_CD" size="4" type="Int32" />
+            <FormulaField expression="if IsNull([OFNS_DESC]) OR&#xA;IsEmpty([OFNS_DESC]) then 'Unknown'&#xA;else [OFNS_DESC]&#xA;endif" field="OFNS_DESC" size="200" type="V_String" />
+            <FormulaField expression="if [KY_CD] == -99 and &#xA;[OFNS_DESC] == 'Unknown' then -99&#xA;else [Gen_Offense_SK]&#xA;endif" field="Gen_Offense_SK" size="4" type="Int32" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>KY_CD = if IsNull([KY_CD]) then -99
+else [KY_CD]
+endif
+OFNS_DESC = if IsNull([OF...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="918" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\work\AppData\Local\Temp\Engine_8732_c18f9499120a4d3bbb0f00a9e9aea07c_\Engine_5712_2f037ec9afff41768dc596a1bf44ce15_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="930" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:NYC_ARREST_DW_DOCKER|||dbo.dim_gen_offense</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Append</OutputOption>
+            <AppendMap>
+              <AppendMapping mode="Custom">
+                <Field Source="Gen_Offense_SK" Dest="Gen_Offense_SK" />
+                <Field Source="KY_CD" Dest="Ky_Cd" />
+                <Field Source="OFNS_DESC" Dest="Ofns_Desc" />
+              </AppendMapping>
+            </AppendMap>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:NYC_ARREST_DW_DOCKER
+Query=dbo.dim_gen_offense</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Unique" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Dim_Gen_Offense</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="b3d62a6f-4d69-4bb1-a0e0-45b80fab0233" />
+      <Telemetry>
+        <PreviousWorkflowId value="1c914992-b89f-4c98-b00c-b52e65a29ba5" />
+        <OriginWorkflowId value="1c914992-b89f-4c98-b00c-b52e65a29ba5" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
