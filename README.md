@@ -12,7 +12,7 @@
 ## Summary
 Designed and developed Dimensional Model and performed data profiling, ETL operations for staging using Alteryx. Created data integration workflow in Talend to load data in AzureSQL and BigQuery DW and visualized analytical data reports dashboard using Tableau and PowerBI to get the insights and single truth story of the data
 
-## Insights
+## NewYork Arrests Insights
 
 <img width="466" alt="Screen Shot 2022-05-10 at 12 57 23 PM" src="https://user-images.githubusercontent.com/71927468/167682528-7be3181f-ac39-4b2c-951a-b032efa414b1.png">
 
