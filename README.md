@@ -1,4 +1,4 @@
-# NYC-Arrest-DW
+# NYC-Arrest-DW-BI
 
 ## Technology Used
 1. Talend (Integration)
